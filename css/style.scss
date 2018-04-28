@@ -195,7 +195,7 @@ body, html {
 			height: 40px;
 			margin: 0 auto;
 			input {
-				width: calc(100% - 30px);
+				width: calc(100% - 35px);
 				height: 30px;
 				margin-top: 5px;
 				float: left;
@@ -205,13 +205,11 @@ body, html {
 				font-weight: bold;
 				border-radius: 5px;
 				font-size: 16px;				
-				&:focus {
-					background: rgba(255, 255, 255, 0.2);
-				}
+				&:focus { background: rgba(255, 255, 255, 0.2); }
 			}
 			.delete {
-				width: 30px;
-				height: 30px;
+				min-width: 30px;
+				min-height: 30px;
 				font-size: 16px;								
 				background: transparent;
 				float: left;
