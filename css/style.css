@@ -188,6 +188,7 @@ body, html {
       margin: 5px auto 0 auto;
       border: 0;
       display: block;
+      font-size: 16px;
       background: transparent;
       resize: none;
       color: #000;
@@ -222,6 +223,8 @@ body, html {
 
 @media screen and (max-width: 1024px) {
   .dashboard {
+    width: calc(100% - 25px);
+    margin: 0;
     padding: 20px 25px 0 25px; } }
 @media screen and (max-width: 650px) {
   .header {
@@ -243,7 +246,7 @@ body, html {
   body {
     width: 400px; }
 
-  .dashboard {
-    padding: 20px 25px 0 25px; } }
+  .dashboard .note {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

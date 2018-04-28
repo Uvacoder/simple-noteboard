@@ -157,9 +157,7 @@ function deleteNote() {
 	dashboard.innerHTML = '';
 	notes.forEach(note => populateBoard(note.nTitle,note.nBody,note.nID));
 	// Resave notes
-   localStorage.setItem('notes',JSON.stringify(notes));
-   console.log(id);
-   
+   localStorage.setItem('notes',JSON.stringify(notes));   
 }
 
 // Returns index of note from saved list
