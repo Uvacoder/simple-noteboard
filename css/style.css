@@ -223,9 +223,8 @@ body, html {
 
 @media screen and (max-width: 1024px) {
   .dashboard {
-    width: calc(100% - 25px);
-    margin: 0;
-    padding: 20px 25px 0 25px; } }
+    width: calc(100% - 40px);
+    margin: 0 auto; } }
 @media screen and (max-width: 650px) {
   .header {
     position: relative; }
