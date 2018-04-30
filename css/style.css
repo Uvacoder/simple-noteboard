@@ -172,12 +172,12 @@ body, html {
       .dashboard .note .note-header .delete {
         width: 30px;
         height: 30px;
-        font-size: 16px;
+        font-size: 20px;
         background: transparent;
         color: #000;
-        font-size: 18px;
         border-radius: 50%;
         border: 0;
+        box-sizing: border-box;
         cursor: pointer; }
         .dashboard .note .note-header .delete:hover {
           background: rgba(255, 255, 255, 0.5); }
@@ -199,7 +199,7 @@ body, html {
       .dashboard .note textarea:focus {
         background: rgba(255, 255, 255, 0.2); }
     .dashboard .note::-webkit-scrollbar {
-      width: 2px; }
+      width: 4px; }
     .dashboard .note::-webkit-scrollbar-track {
       box-shadow: none;
       -o-box-shadow: none;
@@ -209,7 +209,7 @@ body, html {
       background: moccasin; }
     .dashboard .note::-webkit-scrollbar-thumb {
       background-color: rgba(255, 255, 255, 0.5);
-      border-radius: 1px; }
+      border-radius: 2px; }
 
 #dev {
   width: 200px;
@@ -235,13 +235,13 @@ body, html {
       top: 7.5px; }
       .header .add-note-btn:after {
         left: -110px;
-        transform: translateX(-5px);
+        transform: translateX(1px);
         visibility: hidden;
         box-sizing: border-box;
         transition: visibility 0.2s, transform 0.4s !important; }
       .header .add-note-btn:hover:after {
         visibility: visible;
-        transform: translateX(0px); } }
+        transform: translateX(-5px); } }
 @media screen and (max-width: 400px) {
   body {
     width: 400px; }

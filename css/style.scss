@@ -213,12 +213,12 @@ body, html {
 			.delete {
 				width: 30px;
 				height: 30px;
-				font-size: 16px;								
+				font-size: 20px;								
 				background: transparent;
 				color: #000;
-				font-size: 18px;
 				border-radius: 50%;
 				border: 0;
+				box-sizing: border-box;
 				cursor: pointer;
 				&:hover {
 					background: rgba(255, 255, 255, 0.5);
@@ -247,7 +247,7 @@ body, html {
 		}
 		// Custom scrollbar
 		&::-webkit-scrollbar {
-			width: 2px;
+			width: 4px;
 		}
 		&::-webkit-scrollbar-track {
 			@include box-shadow(none);
@@ -255,7 +255,7 @@ body, html {
 		}
 		&::-webkit-scrollbar-thumb {
 			background-color: rgba(255, 255, 255, 0.5);
-			border-radius: 1px;
+			border-radius: 2px;
 		}
 	}
 }
@@ -286,14 +286,14 @@ body, html {
 			right: 25px; top: 7.5px;
 			&:after {
 				left: -110px;
-				transform: translateX(-5px);
+				transform: translateX(1px);
 				visibility: hidden;
 				box-sizing: border-box;
 				transition: visibility 0.2s, transform 0.4s !important;		
 			}
 			&:hover:after {
 				visibility: visible;
-				transform: translateX(0px);
+				transform: translateX(-5px);
 			}
 		}
 	}
