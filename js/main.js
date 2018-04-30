@@ -69,7 +69,7 @@ function populateBoard(title, body, id = -1) {
    const noteTitle = document.createElement('input');
    noteTitle.classList.add('title');
    noteTitle.placeholder = "Title";
-   noteTitle.maxLength = 20;
+   noteTitle.maxLength = 30;
    noteTitle.type = "text";
    noteTitle.value = title;
    observe(noteTitle, 'change',  updateNote);
