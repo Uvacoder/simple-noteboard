@@ -144,7 +144,7 @@ body, html {
     max-height: 90%;
     border-radius: 3px;
     background: moccasin;
-    background: #bada55;
+    background: red;
     padding: 3px 3px 10px 3px;
     overflow: auto;
     color: #000;
@@ -153,12 +153,13 @@ body, html {
     .dashboard .note .note-header {
       width: 95%;
       height: 40px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
       .dashboard .note .note-header input {
-        width: calc(100% - 35px);
+        width: calc(100% - 30px);
         height: 30px;
-        margin-top: 5px;
-        float: left;
         border: 0;
         padding: 10px;
         box-sizing: border-box;
@@ -173,12 +174,10 @@ body, html {
         height: 30px;
         font-size: 16px;
         background: transparent;
-        float: left;
         color: #000;
         font-size: 18px;
         border-radius: 50%;
         border: 0;
-        margin-top: 5px;
         cursor: pointer; }
         .dashboard .note .note-header .delete:hover {
           background: rgba(255, 255, 255, 0.5); }
