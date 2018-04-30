@@ -58,7 +58,7 @@ body, html {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
   .header #logo {
-    width: 125px;
+    width: 145px;
     height: 45px;
     border-radius: 3px;
     display: inline-block; }
@@ -73,7 +73,7 @@ body, html {
       height: 45px;
       padding: 7.5px; }
     .header #logo #app-name {
-      width: 64px;
+      width: calc(100% - 45px);
       height: 25px;
       padding: 0px 7.5px;
       color: #000;
@@ -140,7 +140,7 @@ body, html {
     background-color: #ccc;
     border-radius: 3px; }
   .dashboard .note {
-    width: 350px;
+    min-width: 350px;
     max-height: 95%;
     border-radius: 3px;
     background: moccasin;
@@ -150,17 +150,18 @@ body, html {
     margin: 10px;
     margin-left: 0; }
     .dashboard .note .note-header {
-      width: 95%;
+      width: 332px;
       height: 40px;
       margin: 0 auto;
       display: flex;
       justify-content: flex-start;
       align-items: center; }
       .dashboard .note .note-header input {
-        width: calc(100% - 30px);
-        height: 30px;
+        width: 300px;
+        height: 32px;
         border: 0;
         padding: 10px;
+        float: left;
         box-sizing: border-box;
         background: transparent;
         font-weight: bold;
@@ -169,8 +170,9 @@ body, html {
         .dashboard .note .note-header input:focus {
           background: rgba(255, 255, 255, 0.2); }
       .dashboard .note .note-header .delete {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
+        float: left;
         font-size: 20px;
         background: transparent;
         color: #000;
@@ -181,8 +183,8 @@ body, html {
         .dashboard .note .note-header .delete:hover {
           background: rgba(255, 255, 255, 0.5); }
     .dashboard .note textarea {
-      min-width: 95%;
-      max-width: 95%;
+      min-width: 332px;
+      max-width: 332px;
       height: 40px;
       padding: 5px 10px;
       margin: 5px auto 0 auto;
