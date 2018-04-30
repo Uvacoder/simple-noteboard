@@ -181,11 +181,10 @@ body, html {
 		border-radius: 3px;
 	}
 	.note {
-		min-width: 350px;
-		max-height: 90%;
+		width: 350px;
+		max-height: 95%;
 		border-radius: 3px;
 		background: moccasin;
-		background: red;
 		padding: 3px 3px 10px 3px;
 		overflow: auto;
 		color: #000;
@@ -216,7 +215,7 @@ body, html {
 				font-size: 20px;								
 				background: transparent;
 				color: #000;
-				border-radius: 50%;
+				border-radius: 15px;
 				border: 0;
 				box-sizing: border-box;
 				cursor: pointer;

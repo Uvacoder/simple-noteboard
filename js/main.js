@@ -79,8 +79,7 @@ function populateBoard(title, body, id = -1) {
    observe(noteTitle, 'keyup', updateNote); 
    // Create delete button
    const deleteNoteBtn = document.createElement('button');
-   deleteNoteBtn.classList.add('delete');
-   deleteNoteBtn.innerHTML = `<i class="ion-ios-trash-outline"></i>`;
+   deleteNoteBtn.classList.add('delete',"ion-ios-trash-outline");
    deleteNoteBtn.addEventListener('click',deleteNote);
    // Create body
    const noteBody = document.createElement('textarea');
