@@ -160,6 +160,7 @@ body, html {
         float: left;
         border: 0;
         padding: 10px;
+        box-sizing: border-box;
         background: transparent;
         font-weight: bold;
         border-radius: 5px;
@@ -168,7 +169,7 @@ body, html {
           background: rgba(255, 255, 255, 0.2); }
       .dashboard .note .note-header .delete {
         width: 30px;
-        min-height: 30px;
+        height: 30px;
         font-size: 16px;
         background: transparent;
         float: left;
@@ -176,7 +177,7 @@ body, html {
         font-size: 18px;
         border-radius: 50%;
         border: 0;
-        margin: 5px 0;
+        margin-top: 5px;
         cursor: pointer; }
         .dashboard .note .note-header .delete:hover {
           background: rgba(255, 255, 255, 0.5); }
