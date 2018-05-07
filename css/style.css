@@ -197,11 +197,13 @@ body, html {
       color: #000;
       border-radius: 5px; }
       .dashboard .note textarea::-webkit-scrollbar {
-        width: 2px; }
+        width: 2px;
+        border-radius: 3px; }
       .dashboard .note textarea:focus {
         background: rgba(255, 255, 255, 0.2); }
     .dashboard .note::-webkit-scrollbar {
-      width: 2.5px; }
+      width: 2.5px;
+      border-radius: 3px; }
     .dashboard .note::-webkit-scrollbar-track {
       box-shadow: none;
       -o-box-shadow: none;
